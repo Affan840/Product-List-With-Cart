@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Product list with cart</title>
+  </head>
+  <body>
+    <div class="overlay">
+      <div class="orderDets">
+        <img src="assets/images/icon-order-confirmed.svg" alt="" />
+        <h1>Order Confirmed</h1>
+        <p>We hope you enjoy your food!</p>
+        <div class="total">
+          <p>Order Total: </p>
+          <p></p>
+        </div>
+        <button class="newOrder">Start New Order</button>
+      </div>
+    </div>
+    <main>
+      <main class="container">
+        <section class="left">
+          <h1>Desserts</h1>
+          <div class="products"></div>
+        </section>
+        <aside class="cart">
+          <h2>Your Cart (0)</h2>
+          <div class="empty">
+            <img
+              src="assets/images/illustration-empty-cart.svg"
+              alt="Empty Cart"
+            />
+            <p>Your added items will appear here</p>
+          </div>
+        </aside>
+      </main>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
